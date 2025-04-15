@@ -1,0 +1,23 @@
+CRITICAL - 2025-03-17 01:35:28 --> Too few arguments to function App\Controllers\Home::hapuskendaraan(), 0 passed in G:\My Drive\rental kendaraan2\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(832): App\Controllers\Home->hapuskendaraan()
+#1 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\rental kendaraan2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\rental kendaraan2\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\ren...')
+#5 {main}
+CRITICAL - 2025-03-17 01:39:06 --> Cannot redeclare App\Controllers\Home::deleteK()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-03-17 01:39:13 --> Cannot redeclare App\Controllers\Home::deleteK()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-03-17 01:39:16 --> Cannot redeclare App\Controllers\Home::deleteK()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-03-17 01:41:44 --> Call to a member function hapus() on null
+#0 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(832): App\Controllers\Home->hapuspelanggan('4')
+#1 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\rental kendaraan2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\rental kendaraan2\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\ren...')
+#5 {main}

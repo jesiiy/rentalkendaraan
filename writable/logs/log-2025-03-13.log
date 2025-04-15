@@ -1,0 +1,8 @@
+CRITICAL - 2025-03-13 04:49:56 --> syntax error, unexpected '!'
+#0 G:\My Drive\rental kendaraan2\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/dashboard')
+#1 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/dashboard')
+#2 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\rental kendaraan2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\rental kendaraan2\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\ren...')
+#6 {main}

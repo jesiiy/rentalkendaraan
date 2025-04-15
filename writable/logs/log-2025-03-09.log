@@ -1,0 +1,87 @@
+CRITICAL - 2025-03-09 04:26:50 --> Cannot redeclare App\Controllers\Home::selpem()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-03-09 04:26:57 --> Cannot redeclare App\Controllers\Home::selpem()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-03-09 04:54:45 --> Invalid argument supplied for foreach()
+#0 G:\My Drive\rental kendaraan2\app\Views\historysewa.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'G:\\My Drive\\ren...', 42, Array)
+#1 G:\My Drive\rental kendaraan2\system\View\View.php(210): include('G:\\My Drive\\ren...')
+#2 G:\My Drive\rental kendaraan2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 G:\My Drive\rental kendaraan2\system\Common.php(1089): CodeIgniter\View\View->render('historysewa', Array, true)
+#4 G:\My Drive\rental kendaraan2\app\Controllers\Home.php(311): view('historysewa')
+#5 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(832): App\Controllers\Home->historysewa()
+#6 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 G:\My Drive\rental kendaraan2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 G:\My Drive\rental kendaraan2\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\ren...')
+#10 {main}
+CRITICAL - 2025-03-09 20:24:09 --> Call to a member function getRandomName() on null
+#0 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(832): App\Controllers\Home->aksi_sewa()
+#1 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\rental kendaraan2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\rental kendaraan2\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\ren...')
+#5 {main}
+CRITICAL - 2025-03-09 20:26:12 --> Call to a member function getRandomName() on null
+#0 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(832): App\Controllers\Home->aksi_sewa()
+#1 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\rental kendaraan2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\rental kendaraan2\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\ren...')
+#5 {main}
+CRITICAL - 2025-03-09 20:26:54 --> Call to a member function getRandomName() on null
+#0 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(832): App\Controllers\Home->aksi_sewa()
+#1 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\rental kendaraan2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\rental kendaraan2\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\ren...')
+#5 {main}
+CRITICAL - 2025-03-09 20:29:24 --> Call to a member function getRandomName() on null
+#0 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(832): App\Controllers\Home->aksi_sewa()
+#1 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\rental kendaraan2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\rental kendaraan2\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\ren...')
+#5 {main}
+CRITICAL - 2025-03-09 20:31:49 --> Call to a member function getRandomName() on null
+#0 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(832): App\Controllers\Home->aksi_sewa()
+#1 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\rental kendaraan2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\rental kendaraan2\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\ren...')
+#5 {main}
+CRITICAL - 2025-03-09 20:35:19 --> Call to a member function getRandomName() on null
+#0 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(832): App\Controllers\Home->aksi_sewa()
+#1 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\rental kendaraan2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\rental kendaraan2\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\ren...')
+#5 {main}
+ERROR - 2025-03-09 20:39:18 --> Column 'jenis_kelamin' cannot be null
+ERROR - 2025-03-09 20:55:55 --> Column 'jenis_kelamin' cannot be null
+CRITICAL - 2025-03-09 22:31:26 --> Invalid argument supplied for foreach()
+#0 H:\My Drive\rental kendaraan2\app\Views\historysewa.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'H:\\My Drive\\ren...', 42, Array)
+#1 H:\My Drive\rental kendaraan2\system\View\View.php(210): include('H:\\My Drive\\ren...')
+#2 H:\My Drive\rental kendaraan2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 H:\My Drive\rental kendaraan2\system\Common.php(1089): CodeIgniter\View\View->render('historysewa', Array, true)
+#4 H:\My Drive\rental kendaraan2\app\Controllers\Home.php(326): view('historysewa')
+#5 H:\My Drive\rental kendaraan2\system\CodeIgniter.php(832): App\Controllers\Home->historysewa()
+#6 H:\My Drive\rental kendaraan2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 H:\My Drive\rental kendaraan2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 H:\My Drive\rental kendaraan2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 H:\My Drive\rental kendaraan2\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\ren...')
+#10 {main}
+CRITICAL - 2025-03-09 22:44:04 --> number_format() expects parameter 1 to be float, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'number_format()...', 'H:\\My Drive\\ren...', 98, Array)
+#1 H:\My Drive\rental kendaraan2\app\Views\historysewa.php(98): number_format('IDR 1.500.000', 0, ',', '.')
+#2 H:\My Drive\rental kendaraan2\system\View\View.php(210): include('H:\\My Drive\\ren...')
+#3 H:\My Drive\rental kendaraan2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 H:\My Drive\rental kendaraan2\system\Common.php(1089): CodeIgniter\View\View->render('historysewa', Array, true)
+#5 H:\My Drive\rental kendaraan2\app\Controllers\Home.php(329): view('historysewa', Array)
+#6 H:\My Drive\rental kendaraan2\system\CodeIgniter.php(832): App\Controllers\Home->historysewa()
+#7 H:\My Drive\rental kendaraan2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 H:\My Drive\rental kendaraan2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 H:\My Drive\rental kendaraan2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 H:\My Drive\rental kendaraan2\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\ren...')
+#11 {main}

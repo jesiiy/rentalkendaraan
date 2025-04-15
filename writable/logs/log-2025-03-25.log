@@ -1,0 +1,262 @@
+CRITICAL - 2025-03-25 04:23:03 --> Call to a member function hapus() on null
+#0 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(832): App\Controllers\Home->hapuskendaraan('41')
+#1 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\rental kendaraan2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\rental kendaraan2\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\ren...')
+#5 {main}
+CRITICAL - 2025-03-25 04:24:00 --> Call to a member function hapus() on null
+#0 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(832): App\Controllers\Home->hapuskendaraan('41')
+#1 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\rental kendaraan2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\rental kendaraan2\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\ren...')
+#5 {main}
+CRITICAL - 2025-03-25 04:27:43 --> Call to a member function hapus() on null
+#0 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(832): App\Controllers\Home->hapuskendaraan('3')
+#1 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\rental kendaraan2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\rental kendaraan2\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\ren...')
+#5 {main}
+CRITICAL - 2025-03-25 04:35:30 --> Cannot redeclare App\Controllers\Home::deleteK()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-03-25 04:36:02 --> Cannot redeclare App\Controllers\Home::deleteK()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-03-25 04:37:44 --> Cannot redeclare App\Controllers\Home::deleteK()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-03-25 04:37:49 --> Cannot redeclare App\Controllers\Home::deleteK()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2025-03-25 04:39:34 --> Unknown column 'sewa.id' in 'where clause'
+CRITICAL - 2025-03-25 04:39:34 --> Call to a member function getFirstRow() on bool
+#0 G:\My Drive\rental kendaraan2\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '3')
+#1 G:\My Drive\rental kendaraan2\app\Models\M_belajar.php(112): CodeIgniter\BaseModel->find('3')
+#2 G:\My Drive\rental kendaraan2\app\Controllers\Home.php(267): App\Models\M_belajar->softDelete('3')
+#3 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(832): App\Controllers\Home->deleteK('3')
+#4 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\My Drive\rental kendaraan2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 G:\My Drive\rental kendaraan2\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\ren...')
+#8 {main}
+ERROR - 2025-03-25 04:41:39 --> Unknown column 'sewa.id' in 'where clause'
+CRITICAL - 2025-03-25 04:41:40 --> Call to a member function getFirstRow() on bool
+#0 G:\My Drive\rental kendaraan2\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '3')
+#1 G:\My Drive\rental kendaraan2\app\Models\M_belajar.php(113): CodeIgniter\BaseModel->find('3')
+#2 G:\My Drive\rental kendaraan2\app\Controllers\Home.php(267): App\Models\M_belajar->softDelete('3')
+#3 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(832): App\Controllers\Home->deleteK('3')
+#4 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\My Drive\rental kendaraan2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 G:\My Drive\rental kendaraan2\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\ren...')
+#8 {main}
+CRITICAL - 2025-03-25 04:44:27 --> syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+#0 G:\My Drive\rental kendaraan2\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('G:\\My Drive\\ren...')
+#1 G:\My Drive\rental kendaraan2\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\M_ke...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\M_ke...')
+#3 G:\My Drive\rental kendaraan2\app\Controllers\Home.php(267): spl_autoload_call('App\\Models\\M_ke...')
+#4 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(832): App\Controllers\Home->deleteK('3')
+#5 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 G:\My Drive\rental kendaraan2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 G:\My Drive\rental kendaraan2\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\ren...')
+#9 {main}
+CRITICAL - 2025-03-25 04:51:04 --> There is no data to update.
+#0 G:\My Drive\rental kendaraan2\system\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 G:\My Drive\rental kendaraan2\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#2 G:\My Drive\rental kendaraan2\app\Models\M_belajar.php(128): CodeIgniter\Model->update('3', Array)
+#3 G:\My Drive\rental kendaraan2\app\Controllers\Home.php(187): App\Models\M_belajar->restore('3')
+#4 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(832): App\Controllers\Home->restoreK('3')
+#5 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 G:\My Drive\rental kendaraan2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 G:\My Drive\rental kendaraan2\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\ren...')
+#9 {main}
+CRITICAL - 2025-03-25 04:53:00 --> There is no data to update.
+#0 G:\My Drive\rental kendaraan2\system\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 G:\My Drive\rental kendaraan2\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#2 G:\My Drive\rental kendaraan2\app\Models\M_belajar.php(128): CodeIgniter\Model->update('3', Array)
+#3 G:\My Drive\rental kendaraan2\app\Controllers\Home.php(187): App\Models\M_belajar->restore('3')
+#4 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(832): App\Controllers\Home->restoreK('3')
+#5 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 G:\My Drive\rental kendaraan2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 G:\My Drive\rental kendaraan2\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\ren...')
+#9 {main}
+CRITICAL - 2025-03-25 04:54:08 --> There is no data to update.
+#0 G:\My Drive\rental kendaraan2\system\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 G:\My Drive\rental kendaraan2\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#2 G:\My Drive\rental kendaraan2\app\Models\M_belajar.php(128): CodeIgniter\Model->update('3', Array)
+#3 G:\My Drive\rental kendaraan2\app\Controllers\Home.php(187): App\Models\M_belajar->restore('3')
+#4 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(832): App\Controllers\Home->restoreK('3')
+#5 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 G:\My Drive\rental kendaraan2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 G:\My Drive\rental kendaraan2\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\ren...')
+#9 {main}
+CRITICAL - 2025-03-25 04:56:21 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 G:\My Drive\rental kendaraan2\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/tabelkenda...')
+#1 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home/tabelkenda...')
+#2 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\rental kendaraan2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\rental kendaraan2\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\ren...')
+#6 {main}
+CRITICAL - 2025-03-25 04:56:36 --> There is no data to update.
+#0 G:\My Drive\rental kendaraan2\system\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 G:\My Drive\rental kendaraan2\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#2 G:\My Drive\rental kendaraan2\app\Models\M_belajar.php(128): CodeIgniter\Model->update('3', Array)
+#3 G:\My Drive\rental kendaraan2\app\Controllers\Home.php(187): App\Models\M_belajar->restore('3')
+#4 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(832): App\Controllers\Home->restoreK('3')
+#5 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 G:\My Drive\rental kendaraan2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 G:\My Drive\rental kendaraan2\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\ren...')
+#9 {main}
+CRITICAL - 2025-03-25 04:56:55 --> There is no data to update.
+#0 G:\My Drive\rental kendaraan2\system\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 G:\My Drive\rental kendaraan2\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#2 G:\My Drive\rental kendaraan2\app\Models\M_belajar.php(128): CodeIgniter\Model->update('3', Array)
+#3 G:\My Drive\rental kendaraan2\app\Controllers\Home.php(187): App\Models\M_belajar->restore('3')
+#4 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(832): App\Controllers\Home->restoreK('3')
+#5 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 G:\My Drive\rental kendaraan2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 G:\My Drive\rental kendaraan2\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\ren...')
+#9 {main}
+CRITICAL - 2025-03-25 04:58:24 --> There is no data to update.
+#0 G:\My Drive\rental kendaraan2\system\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 G:\My Drive\rental kendaraan2\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#2 G:\My Drive\rental kendaraan2\app\Models\M_belajar.php(128): CodeIgniter\Model->update('3', Array)
+#3 G:\My Drive\rental kendaraan2\app\Controllers\Home.php(187): App\Models\M_belajar->restore('3')
+#4 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(832): App\Controllers\Home->restoreK('3')
+#5 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 G:\My Drive\rental kendaraan2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 G:\My Drive\rental kendaraan2\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\ren...')
+#9 {main}
+CRITICAL - 2025-03-25 04:59:41 --> syntax error, unexpected '}'
+#0 G:\My Drive\rental kendaraan2\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('G:\\My Drive\\ren...')
+#1 G:\My Drive\rental kendaraan2\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\M_ke...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\M_ke...')
+#3 G:\My Drive\rental kendaraan2\app\Controllers\Home.php(186): spl_autoload_call('App\\Models\\M_ke...')
+#4 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(832): App\Controllers\Home->restoreK('3')
+#5 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 G:\My Drive\rental kendaraan2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 G:\My Drive\rental kendaraan2\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\ren...')
+#9 {main}
+CRITICAL - 2025-03-25 05:00:19 --> syntax error, unexpected '}'
+#0 G:\My Drive\rental kendaraan2\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('G:\\My Drive\\ren...')
+#1 G:\My Drive\rental kendaraan2\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\M_ke...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\M_ke...')
+#3 G:\My Drive\rental kendaraan2\app\Controllers\Home.php(186): spl_autoload_call('App\\Models\\M_ke...')
+#4 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(832): App\Controllers\Home->restoreK('3')
+#5 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 G:\My Drive\rental kendaraan2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 G:\My Drive\rental kendaraan2\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\ren...')
+#9 {main}
+CRITICAL - 2025-03-25 05:01:06 --> syntax error, unexpected '}'
+#0 G:\My Drive\rental kendaraan2\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('G:\\My Drive\\ren...')
+#1 G:\My Drive\rental kendaraan2\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\M_ke...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\M_ke...')
+#3 G:\My Drive\rental kendaraan2\app\Controllers\Home.php(186): spl_autoload_call('App\\Models\\M_ke...')
+#4 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(832): App\Controllers\Home->restoreK('3')
+#5 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 G:\My Drive\rental kendaraan2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 G:\My Drive\rental kendaraan2\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\ren...')
+#9 {main}
+CRITICAL - 2025-03-25 05:02:24 --> Call to undefined method App\Models\M_kendaraan::restore
+#0 G:\My Drive\rental kendaraan2\app\Controllers\Home.php(187): CodeIgniter\Model->__call('restore', Array)
+#1 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(832): App\Controllers\Home->restoreK('3')
+#2 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\rental kendaraan2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\rental kendaraan2\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\ren...')
+#6 {main}
+CRITICAL - 2025-03-25 05:04:51 --> Call to undefined method App\Models\M_kendaraan::restore
+#0 G:\My Drive\rental kendaraan2\app\Controllers\Home.php(187): CodeIgniter\Model->__call('restore', Array)
+#1 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(832): App\Controllers\Home->restoreK('3')
+#2 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\rental kendaraan2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\rental kendaraan2\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\ren...')
+#6 {main}
+CRITICAL - 2025-03-25 05:05:33 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 G:\My Drive\rental kendaraan2\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/restoreK/3')
+#1 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/restoreK/3')
+#2 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\rental kendaraan2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\rental kendaraan2\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\ren...')
+#6 {main}
+CRITICAL - 2025-03-25 05:06:02 --> Call to undefined method App\Models\M_kendaraan::restore
+#0 G:\My Drive\rental kendaraan2\app\Controllers\Home.php(187): CodeIgniter\Model->__call('restore', Array)
+#1 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(832): App\Controllers\Home->restoreK('3')
+#2 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\rental kendaraan2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\rental kendaraan2\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\ren...')
+#6 {main}
+CRITICAL - 2025-03-25 05:06:22 --> syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+#0 G:\My Drive\rental kendaraan2\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/tabelkenda...')
+#1 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home/tabelkenda...')
+#2 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\rental kendaraan2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\rental kendaraan2\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\ren...')
+#6 {main}
+CRITICAL - 2025-03-25 05:07:19 --> Call to undefined method App\Models\M_kendaraan::restore
+#0 G:\My Drive\rental kendaraan2\app\Controllers\Home.php(187): CodeIgniter\Model->__call('restore', Array)
+#1 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(832): App\Controllers\Home->restoreK('3')
+#2 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\rental kendaraan2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\rental kendaraan2\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\ren...')
+#6 {main}
+CRITICAL - 2025-03-25 05:08:34 --> Call to undefined method App\Models\M_kendaraan::restore
+#0 G:\My Drive\rental kendaraan2\app\Controllers\Home.php(187): CodeIgniter\Model->__call('restore', Array)
+#1 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(832): App\Controllers\Home->restoreK('3')
+#2 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\rental kendaraan2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\rental kendaraan2\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\ren...')
+#6 {main}
+CRITICAL - 2025-03-25 05:11:18 --> syntax error, unexpected 'else' (T_ELSE), expecting function (T_FUNCTION) or const (T_CONST)
+#0 G:\My Drive\rental kendaraan2\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('G:\\My Drive\\ren...')
+#1 G:\My Drive\rental kendaraan2\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\M_ke...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\M_ke...')
+#3 G:\My Drive\rental kendaraan2\app\Controllers\Home.php(186): spl_autoload_call('App\\Models\\M_ke...')
+#4 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(832): App\Controllers\Home->restoreK('3')
+#5 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 G:\My Drive\rental kendaraan2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 G:\My Drive\rental kendaraan2\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\ren...')
+#9 {main}
+CRITICAL - 2025-03-25 05:12:05 --> syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+#0 G:\My Drive\rental kendaraan2\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('G:\\My Drive\\ren...')
+#1 G:\My Drive\rental kendaraan2\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\M_ke...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\M_ke...')
+#3 G:\My Drive\rental kendaraan2\app\Controllers\Home.php(186): spl_autoload_call('App\\Models\\M_ke...')
+#4 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(832): App\Controllers\Home->restoreK('3')
+#5 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 G:\My Drive\rental kendaraan2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 G:\My Drive\rental kendaraan2\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\ren...')
+#9 {main}
+CRITICAL - 2025-03-25 05:12:52 --> Call to undefined method App\Models\M_kendaraan::restore
+#0 G:\My Drive\rental kendaraan2\app\Controllers\Home.php(187): CodeIgniter\Model->__call('restore', Array)
+#1 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(832): App\Controllers\Home->restoreK('3')
+#2 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\rental kendaraan2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\rental kendaraan2\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\ren...')
+#6 {main}
+CRITICAL - 2025-03-25 05:49:58 --> Cannot redeclare App\Controllers\Home::logActivity()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

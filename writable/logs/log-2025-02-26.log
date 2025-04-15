@@ -1,0 +1,68 @@
+CRITICAL - 2025-02-26 20:40:33 --> syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+#0 G:\My Drive\rental kendaraan2\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/dashboard')
+#1 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home/dashboard')
+#2 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\rental kendaraan2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\rental kendaraan2\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\ren...')
+#6 {main}
+CRITICAL - 2025-02-26 20:41:02 --> Invalid file: cart.php
+#0 G:\My Drive\rental kendaraan2\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('cart.php')
+#1 G:\My Drive\rental kendaraan2\system\Common.php(1089): CodeIgniter\View\View->render('cart', Array, true)
+#2 G:\My Drive\rental kendaraan2\app\Controllers\Home.php(201): view('cart')
+#3 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(832): App\Controllers\Home->cart()
+#4 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\My Drive\rental kendaraan2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 G:\My Drive\rental kendaraan2\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\ren...')
+#8 {main}
+CRITICAL - 2025-02-26 20:48:46 --> Invalid file: cart.php
+#0 G:\My Drive\rental kendaraan2\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('cart.php')
+#1 G:\My Drive\rental kendaraan2\system\Common.php(1089): CodeIgniter\View\View->render('cart', Array, true)
+#2 G:\My Drive\rental kendaraan2\app\Controllers\Home.php(201): view('cart')
+#3 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(832): App\Controllers\Home->cart()
+#4 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\My Drive\rental kendaraan2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 G:\My Drive\rental kendaraan2\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\ren...')
+#8 {main}
+CRITICAL - 2025-02-26 22:44:57 --> Invalid file: cart.php
+#0 H:\My Drive\rental kendaraan2\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('cart.php')
+#1 H:\My Drive\rental kendaraan2\system\Common.php(1089): CodeIgniter\View\View->render('cart', Array, true)
+#2 H:\My Drive\rental kendaraan2\app\Controllers\Home.php(201): view('cart')
+#3 H:\My Drive\rental kendaraan2\system\CodeIgniter.php(832): App\Controllers\Home->cart()
+#4 H:\My Drive\rental kendaraan2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 H:\My Drive\rental kendaraan2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\My Drive\rental kendaraan2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 H:\My Drive\rental kendaraan2\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\ren...')
+#8 {main}
+CRITICAL - 2025-02-26 22:46:26 --> Invalid file: cart.php
+#0 H:\My Drive\rental kendaraan2\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('cart.php')
+#1 H:\My Drive\rental kendaraan2\system\Common.php(1089): CodeIgniter\View\View->render('cart', Array, true)
+#2 H:\My Drive\rental kendaraan2\app\Controllers\Home.php(201): view('cart')
+#3 H:\My Drive\rental kendaraan2\system\CodeIgniter.php(832): App\Controllers\Home->cart()
+#4 H:\My Drive\rental kendaraan2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 H:\My Drive\rental kendaraan2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\My Drive\rental kendaraan2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 H:\My Drive\rental kendaraan2\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\ren...')
+#8 {main}
+CRITICAL - 2025-02-26 22:46:34 --> Invalid file: cart.php
+#0 H:\My Drive\rental kendaraan2\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('cart.php')
+#1 H:\My Drive\rental kendaraan2\system\Common.php(1089): CodeIgniter\View\View->render('cart', Array, true)
+#2 H:\My Drive\rental kendaraan2\app\Controllers\Home.php(201): view('cart')
+#3 H:\My Drive\rental kendaraan2\system\CodeIgniter.php(832): App\Controllers\Home->cart()
+#4 H:\My Drive\rental kendaraan2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 H:\My Drive\rental kendaraan2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\My Drive\rental kendaraan2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 H:\My Drive\rental kendaraan2\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\ren...')
+#8 {main}
+CRITICAL - 2025-02-26 22:48:41 --> Invalid file: cart.php
+#0 H:\My Drive\rental kendaraan2\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('cart.php')
+#1 H:\My Drive\rental kendaraan2\system\Common.php(1089): CodeIgniter\View\View->render('cart', Array, true)
+#2 H:\My Drive\rental kendaraan2\app\Controllers\Home.php(201): view('cart')
+#3 H:\My Drive\rental kendaraan2\system\CodeIgniter.php(832): App\Controllers\Home->cart()
+#4 H:\My Drive\rental kendaraan2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 H:\My Drive\rental kendaraan2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\My Drive\rental kendaraan2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 H:\My Drive\rental kendaraan2\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\ren...')
+#8 {main}

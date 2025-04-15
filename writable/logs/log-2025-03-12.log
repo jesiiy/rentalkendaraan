@@ -1,0 +1,15 @@
+ERROR - 2025-03-12 22:53:04 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2025-03-12 22:53:04 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 G:\My Drive\rental kendaraan2\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 G:\My Drive\rental kendaraan2\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 G:\My Drive\rental kendaraan2\app\Models\M_belajar.php(19): CodeIgniter\Database\BaseBuilder->get()
+#3 G:\My Drive\rental kendaraan2\app\Controllers\Home.php(298): App\Models\M_belajar->tampil('kendaraan', 'id_kendaraan')
+#4 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(832): App\Controllers\Home->sewa()
+#5 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 G:\My Drive\rental kendaraan2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 G:\My Drive\rental kendaraan2\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\ren...')
+#9 {main}

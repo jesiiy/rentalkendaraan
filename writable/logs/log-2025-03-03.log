@@ -1,0 +1,82 @@
+CRITICAL - 2025-03-03 00:00:23 --> syntax error, unexpected end of file
+#0 G:\My Drive\rental kendaraan2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 G:\My Drive\rental kendaraan2\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#2 G:\My Drive\rental kendaraan2\app\Controllers\Home.php(15): view('dashboard')
+#3 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#4 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\My Drive\rental kendaraan2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 G:\My Drive\rental kendaraan2\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\ren...')
+#8 {main}
+CRITICAL - 2025-03-03 00:01:11 --> syntax error, unexpected end of file
+#0 G:\My Drive\rental kendaraan2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 G:\My Drive\rental kendaraan2\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#2 G:\My Drive\rental kendaraan2\app\Controllers\Home.php(15): view('dashboard')
+#3 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#4 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\My Drive\rental kendaraan2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 G:\My Drive\rental kendaraan2\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\ren...')
+#8 {main}
+CRITICAL - 2025-03-03 18:32:13 --> syntax error, unexpected '}', expecting end of file
+#0 G:\My Drive\rental kendaraan2\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/dashboard')
+#1 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home/dashboard')
+#2 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\rental kendaraan2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\rental kendaraan2\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\ren...')
+#6 {main}
+ERROR - 2025-03-03 21:28:31 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2025-03-03 21:28:32 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 H:\My Drive\rental kendaraan2\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 H:\My Drive\rental kendaraan2\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 H:\My Drive\rental kendaraan2\app\Models\M_belajar.php(11): CodeIgniter\Database\BaseBuilder->get()
+#3 H:\My Drive\rental kendaraan2\app\Controllers\Home.php(213): App\Models\M_belajar->tampil('sewa', 'id_sewa')
+#4 H:\My Drive\rental kendaraan2\system\CodeIgniter.php(832): App\Controllers\Home->sewa()
+#5 H:\My Drive\rental kendaraan2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 H:\My Drive\rental kendaraan2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 H:\My Drive\rental kendaraan2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 H:\My Drive\rental kendaraan2\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\ren...')
+#9 {main}
+CRITICAL - 2025-03-03 22:51:27 --> syntax error, unexpected '<'
+#0 G:\My Drive\rental kendaraan2\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/sewa')
+#1 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home/sewa')
+#2 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\rental kendaraan2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\rental kendaraan2\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\ren...')
+#6 {main}
+CRITICAL - 2025-03-03 23:21:31 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 G:\My Drive\rental kendaraan2\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/dashboard')
+#1 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home/dashboard')
+#2 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\rental kendaraan2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\rental kendaraan2\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\ren...')
+#6 {main}
+CRITICAL - 2025-03-03 23:48:40 --> Invalid file: layout.php
+#0 G:\My Drive\rental kendaraan2\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout.php')
+#1 G:\My Drive\rental kendaraan2\system\View\View.php(226): CodeIgniter\View\View->render('layout', Array, true)
+#2 G:\My Drive\rental kendaraan2\system\Common.php(1089): CodeIgniter\View\View->render('profile', Array, true)
+#3 G:\My Drive\rental kendaraan2\app\Controllers\Home.php(96): view('profile')
+#4 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#5 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 G:\My Drive\rental kendaraan2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 G:\My Drive\rental kendaraan2\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\ren...')
+#9 {main}
+CRITICAL - 2025-03-03 23:49:16 --> View themes, no current section.
+#0 G:\My Drive\rental kendaraan2\app\Views\profile.php(82): CodeIgniter\View\View->endSection()
+#1 G:\My Drive\rental kendaraan2\system\View\View.php(210): include('G:\\My Drive\\ren...')
+#2 G:\My Drive\rental kendaraan2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 G:\My Drive\rental kendaraan2\system\Common.php(1089): CodeIgniter\View\View->render('profile', Array, true)
+#4 G:\My Drive\rental kendaraan2\app\Controllers\Home.php(96): view('profile')
+#5 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#6 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 G:\My Drive\rental kendaraan2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 G:\My Drive\rental kendaraan2\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\ren...')
+#10 {main}

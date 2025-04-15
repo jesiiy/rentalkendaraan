@@ -1,0 +1,20 @@
+CRITICAL - 2025-02-24 20:59:17 --> Invalid file: header.php
+#0 C:\Users\acer\Videos\rental kendaaraan2\rental kendaraan\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('header.php')
+#1 C:\Users\acer\Videos\rental kendaaraan2\rental kendaraan\system\Common.php(1089): CodeIgniter\View\View->render('header', Array, true)
+#2 C:\Users\acer\Videos\rental kendaaraan2\rental kendaraan\app\Controllers\Home.php(13): view('header')
+#3 C:\Users\acer\Videos\rental kendaaraan2\rental kendaraan\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#4 C:\Users\acer\Videos\rental kendaaraan2\rental kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\acer\Videos\rental kendaaraan2\rental kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\acer\Videos\rental kendaaraan2\rental kendaraan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\acer\Videos\rental kendaaraan2\rental kendaraan\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\acer\\V...')
+#8 {main}
+CRITICAL - 2025-02-24 21:00:17 --> Invalid file: header.php
+#0 C:\Users\acer\Videos\rental kendaaraan2\rental kendaraan\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('header.php')
+#1 C:\Users\acer\Videos\rental kendaaraan2\rental kendaraan\system\Common.php(1089): CodeIgniter\View\View->render('header', Array, true)
+#2 C:\Users\acer\Videos\rental kendaaraan2\rental kendaraan\app\Controllers\Home.php(13): view('header')
+#3 C:\Users\acer\Videos\rental kendaaraan2\rental kendaraan\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#4 C:\Users\acer\Videos\rental kendaaraan2\rental kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\acer\Videos\rental kendaaraan2\rental kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\acer\Videos\rental kendaaraan2\rental kendaraan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\acer\Videos\rental kendaaraan2\rental kendaraan\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\acer\\V...')
+#8 {main}

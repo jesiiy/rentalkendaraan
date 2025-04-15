@@ -1,0 +1,40 @@
+CRITICAL - 2025-03-04 00:31:02 --> Cannot redeclare App\Controllers\Home::index()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-03-04 00:31:39 --> syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+#0 G:\My Drive\rental kendaraan2\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/dashboard')
+#1 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home/dashboard')
+#2 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\rental kendaraan2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\rental kendaraan2\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\ren...')
+#6 {main}
+CRITICAL - 2025-03-04 00:31:52 --> Cannot redeclare App\Controllers\Home::index()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-03-04 00:33:03 --> Cannot redeclare App\Controllers\Home::index()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-03-04 00:34:59 --> syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+#0 G:\My Drive\rental kendaraan2\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/dashboard')
+#1 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home/dashboard')
+#2 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\rental kendaraan2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\rental kendaraan2\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\ren...')
+#6 {main}
+CRITICAL - 2025-03-04 09:44:38 --> syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+#0 G:\My Drive\rental kendaraan2\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/profile')
+#1 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home/profile')
+#2 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\rental kendaraan2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\rental kendaraan2\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\ren...')
+#6 {main}
+CRITICAL - 2025-03-04 09:45:06 --> Too few arguments to function App\Controllers\Home::profile(), 0 passed in G:\My Drive\rental kendaraan2\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#1 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\rental kendaraan2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\rental kendaraan2\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\ren...')
+#5 {main}

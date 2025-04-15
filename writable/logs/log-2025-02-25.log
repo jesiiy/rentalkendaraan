@@ -1,0 +1,133 @@
+CRITICAL - 2025-02-25 08:12:48 --> Invalid file: register.php
+#0 G:\My Drive\rental kendaraan2\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('register.php')
+#1 G:\My Drive\rental kendaraan2\system\Common.php(1089): CodeIgniter\View\View->render('register', Array, true)
+#2 G:\My Drive\rental kendaraan2\app\Controllers\Home.php(64): view('register')
+#3 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(832): App\Controllers\Home->register()
+#4 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\My Drive\rental kendaraan2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 G:\My Drive\rental kendaraan2\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\ren...')
+#8 {main}
+CRITICAL - 2025-02-25 08:18:09 --> Class 'App\Controllers\M_belajar' not found
+#0 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(832): App\Controllers\Home->aksi_register()
+#1 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\rental kendaraan2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\rental kendaraan2\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\ren...')
+#5 {main}
+CRITICAL - 2025-02-25 08:19:22 --> Class 'App\Controllers\M_belajar' not found
+#0 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(832): App\Controllers\Home->aksi_register()
+#1 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\rental kendaraan2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\rental kendaraan2\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\ren...')
+#5 {main}
+CRITICAL - 2025-02-25 08:19:26 --> Class 'App\Controllers\M_belajar' not found
+#0 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(832): App\Controllers\Home->aksi_register()
+#1 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\rental kendaraan2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\rental kendaraan2\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\ren...')
+#5 {main}
+CRITICAL - 2025-02-25 08:19:28 --> Class 'App\Controllers\M_belajar' not found
+#0 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(832): App\Controllers\Home->aksi_register()
+#1 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\rental kendaraan2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\rental kendaraan2\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\ren...')
+#5 {main}
+CRITICAL - 2025-02-25 08:19:30 --> Class 'App\Controllers\M_belajar' not found
+#0 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(832): App\Controllers\Home->aksi_register()
+#1 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\rental kendaraan2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\rental kendaraan2\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\ren...')
+#5 {main}
+CRITICAL - 2025-02-25 08:21:17 --> Class 'App\Controllers\M_belajar' not found
+#0 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(832): App\Controllers\Home->aksi_register()
+#1 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\rental kendaraan2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\rental kendaraan2\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\ren...')
+#5 {main}
+CRITICAL - 2025-02-25 19:05:00 --> Cannot redeclare App\Controllers\Home::dashboard()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-02-25 20:43:50 --> Call to a member function tampil() on null
+#0 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(832): App\Controllers\Home->tablekendaraan()
+#1 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\rental kendaraan2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\rental kendaraan2\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\ren...')
+#5 {main}
+CRITICAL - 2025-02-25 20:51:37 --> syntax error, unexpected end of file
+#0 G:\My Drive\rental kendaraan2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 G:\My Drive\rental kendaraan2\system\Common.php(1089): CodeIgniter\View\View->render('tablekendaraan', Array, true)
+#2 G:\My Drive\rental kendaraan2\app\Controllers\Home.php(123): view('tablekendaraan', Array)
+#3 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(832): App\Controllers\Home->tablekendaraan()
+#4 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\My Drive\rental kendaraan2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 G:\My Drive\rental kendaraan2\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\ren...')
+#8 {main}
+CRITICAL - 2025-02-25 20:53:06 --> syntax error, unexpected end of file
+#0 G:\My Drive\rental kendaraan2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 G:\My Drive\rental kendaraan2\system\Common.php(1089): CodeIgniter\View\View->render('tablekendaraan', Array, true)
+#2 G:\My Drive\rental kendaraan2\app\Controllers\Home.php(123): view('tablekendaraan', Array)
+#3 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(832): App\Controllers\Home->tablekendaraan()
+#4 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\My Drive\rental kendaraan2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 G:\My Drive\rental kendaraan2\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\ren...')
+#8 {main}
+CRITICAL - 2025-02-25 20:54:17 --> syntax error, unexpected end of file
+#0 G:\My Drive\rental kendaraan2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 G:\My Drive\rental kendaraan2\system\Common.php(1089): CodeIgniter\View\View->render('tablekendaraan', Array, true)
+#2 G:\My Drive\rental kendaraan2\app\Controllers\Home.php(123): view('tablekendaraan', Array)
+#3 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(832): App\Controllers\Home->tablekendaraan()
+#4 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\My Drive\rental kendaraan2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 G:\My Drive\rental kendaraan2\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\ren...')
+#8 {main}
+CRITICAL - 2025-02-25 21:52:03 --> Call to a member function close() on null
+#0 H:\My Drive\rental kendaraan2\system\View\View.php(210): include()
+#1 H:\My Drive\rental kendaraan2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 H:\My Drive\rental kendaraan2\system\Common.php(1089): CodeIgniter\View\View->render('tablekendaraan', Array, true)
+#3 H:\My Drive\rental kendaraan2\app\Controllers\Home.php(123): view('tablekendaraan', Array)
+#4 H:\My Drive\rental kendaraan2\system\CodeIgniter.php(832): App\Controllers\Home->tablekendaraan()
+#5 H:\My Drive\rental kendaraan2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 H:\My Drive\rental kendaraan2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 H:\My Drive\rental kendaraan2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 H:\My Drive\rental kendaraan2\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\ren...')
+#9 {main}
+CRITICAL - 2025-02-25 21:56:16 --> Invalid file: tableekendaraan.php
+#0 H:\My Drive\rental kendaraan2\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tableekendaraan...')
+#1 H:\My Drive\rental kendaraan2\system\Common.php(1089): CodeIgniter\View\View->render('tableekendaraan', Array, true)
+#2 H:\My Drive\rental kendaraan2\app\Controllers\Home.php(123): view('tableekendaraan', Array)
+#3 H:\My Drive\rental kendaraan2\system\CodeIgniter.php(832): App\Controllers\Home->tablekendaraan()
+#4 H:\My Drive\rental kendaraan2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 H:\My Drive\rental kendaraan2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\My Drive\rental kendaraan2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 H:\My Drive\rental kendaraan2\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\ren...')
+#8 {main}
+CRITICAL - 2025-02-25 22:09:12 --> Invalid file: tabelkendaraan.php
+#0 H:\My Drive\rental kendaraan2\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tabelkendaraan....')
+#1 H:\My Drive\rental kendaraan2\system\Common.php(1089): CodeIgniter\View\View->render('tabelkendaraan', Array, true)
+#2 H:\My Drive\rental kendaraan2\app\Controllers\Home.php(123): view('tabelkendaraan', Array)
+#3 H:\My Drive\rental kendaraan2\system\CodeIgniter.php(832): App\Controllers\Home->tablekendaraan()
+#4 H:\My Drive\rental kendaraan2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 H:\My Drive\rental kendaraan2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\My Drive\rental kendaraan2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 H:\My Drive\rental kendaraan2\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\ren...')
+#8 {main}
+CRITICAL - 2025-02-25 22:44:38 --> Invalid file: tabelekendaraan.php
+#0 G:\My Drive\rental kendaraan2\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tabelekendaraan...')
+#1 G:\My Drive\rental kendaraan2\system\Common.php(1089): CodeIgniter\View\View->render('tabelekendaraan', Array, true)
+#2 G:\My Drive\rental kendaraan2\app\Controllers\Home.php(123): view('tabelekendaraan', Array)
+#3 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(832): App\Controllers\Home->tablekendaraan()
+#4 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\My Drive\rental kendaraan2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 G:\My Drive\rental kendaraan2\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\ren...')
+#8 {main}

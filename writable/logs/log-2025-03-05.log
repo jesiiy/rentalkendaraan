@@ -1,0 +1,77 @@
+ERROR - 2025-03-05 21:30:16 --> Unknown column 'no_hp' in 'field list'
+ERROR - 2025-03-05 21:30:16 --> Unknown column 'no_hp' in 'where clause'
+CRITICAL - 2025-03-05 21:30:16 --> Call to a member function getRow() on bool
+#0 H:\My Drive\rental kendaraan2\app\Controllers\Home.php(136): App\Models\M_belajar->getWhere('user', Array)
+#1 H:\My Drive\rental kendaraan2\system\CodeIgniter.php(832): App\Controllers\Home->aksi_register()
+#2 H:\My Drive\rental kendaraan2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 H:\My Drive\rental kendaraan2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 H:\My Drive\rental kendaraan2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 H:\My Drive\rental kendaraan2\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\ren...')
+#6 {main}
+ERROR - 2025-03-05 21:37:47 --> Unknown column 'no_hp' in 'field list'
+ERROR - 2025-03-05 21:37:47 --> Unknown column 'no_hp' in 'where clause'
+CRITICAL - 2025-03-05 21:37:47 --> Call to a member function getRow() on bool
+#0 H:\My Drive\rental kendaraan2\app\Controllers\Home.php(136): App\Models\M_belajar->getWhere('user', Array)
+#1 H:\My Drive\rental kendaraan2\system\CodeIgniter.php(832): App\Controllers\Home->aksi_register()
+#2 H:\My Drive\rental kendaraan2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 H:\My Drive\rental kendaraan2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 H:\My Drive\rental kendaraan2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 H:\My Drive\rental kendaraan2\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\ren...')
+#6 {main}
+ERROR - 2025-03-05 21:39:26 --> Unknown column 'no_hp' in 'field list'
+ERROR - 2025-03-05 21:39:26 --> Unknown column 'no_hp' in 'where clause'
+CRITICAL - 2025-03-05 21:39:26 --> Call to a member function getRow() on bool
+#0 H:\My Drive\rental kendaraan2\app\Controllers\Home.php(136): App\Models\M_belajar->getWhere('user', Array)
+#1 H:\My Drive\rental kendaraan2\system\CodeIgniter.php(832): App\Controllers\Home->aksi_register()
+#2 H:\My Drive\rental kendaraan2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 H:\My Drive\rental kendaraan2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 H:\My Drive\rental kendaraan2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 H:\My Drive\rental kendaraan2\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\ren...')
+#6 {main}
+ERROR - 2025-03-05 21:41:50 --> Unknown column 'username' in 'field list'
+ERROR - 2025-03-05 21:41:50 --> Unknown column 'username' in 'where clause'
+CRITICAL - 2025-03-05 21:41:50 --> Call to a member function getRow() on bool
+#0 H:\My Drive\rental kendaraan2\app\Controllers\Home.php(136): App\Models\M_belajar->getWhere('pelanggan', Array)
+#1 H:\My Drive\rental kendaraan2\system\CodeIgniter.php(832): App\Controllers\Home->aksi_register()
+#2 H:\My Drive\rental kendaraan2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 H:\My Drive\rental kendaraan2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 H:\My Drive\rental kendaraan2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 H:\My Drive\rental kendaraan2\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\ren...')
+#6 {main}
+ERROR - 2025-03-05 21:46:56 --> Unknown column 'email' in 'field list'
+ERROR - 2025-03-05 21:46:56 --> Unknown column 'email' in 'where clause'
+CRITICAL - 2025-03-05 21:46:56 --> Call to a member function getRow() on bool
+#0 H:\My Drive\rental kendaraan2\app\Controllers\Home.php(136): App\Models\M_belajar->getWhere('user', Array)
+#1 H:\My Drive\rental kendaraan2\system\CodeIgniter.php(832): App\Controllers\Home->aksi_register()
+#2 H:\My Drive\rental kendaraan2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 H:\My Drive\rental kendaraan2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 H:\My Drive\rental kendaraan2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 H:\My Drive\rental kendaraan2\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\ren...')
+#6 {main}
+ERROR - 2025-03-05 23:11:41 --> Unknown column 'no_sim' in 'field list'
+ERROR - 2025-03-05 23:13:42 --> Unknown column 'no_sim' in 'field list'
+ERROR - 2025-03-05 23:15:39 --> Unknown column 'no_sim' in 'field list'
+CRITICAL - 2025-03-05 23:23:39 --> Class 'App\Models\M_user' not found
+#0 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(832): App\Controllers\Home->registerProcess()
+#1 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\rental kendaraan2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\rental kendaraan2\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\ren...')
+#5 {main}
+CRITICAL - 2025-03-05 23:24:35 --> Class 'App\Models\M_user' not found
+#0 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(832): App\Controllers\Home->registerProcess()
+#1 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\rental kendaraan2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\rental kendaraan2\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\ren...')
+#5 {main}
+CRITICAL - 2025-03-05 23:47:38 --> radio is not a valid rule.
+#0 G:\My Drive\rental kendaraan2\system\Validation\Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('radio')
+#1 G:\My Drive\rental kendaraan2\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('jenis_kelamin', 'jenis_kelamin', 'perempuan', Array, Array)
+#2 G:\My Drive\rental kendaraan2\app\Controllers\Home.php(132): CodeIgniter\Validation\Validation->run()
+#3 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(832): App\Controllers\Home->registerProcess()
+#4 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 G:\My Drive\rental kendaraan2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\My Drive\rental kendaraan2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 G:\My Drive\rental kendaraan2\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\ren...')
+#8 {main}
